@@ -82,3 +82,14 @@ def numleatogresorter(num_list):
             o = o+1
         i=i+1    
     return num_list
+
+
+def multiplesgetter(mnum,xnum):
+    anum = 1
+    num=0
+    numlist=[]
+    for x in range(xnum):
+        num=mnum*anum
+        numlist.append(num)
+        anum=anum+1
+    print(numlist)
