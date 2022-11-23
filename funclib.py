@@ -64,7 +64,7 @@ def numbergiver():
     num_list=[]
     from random import randrange
     for x in range(10):
-      rnum = randrange(1,100)
+      rnum = randrange(0,100)
       num_list.append(rnum)
     return num_list
 
