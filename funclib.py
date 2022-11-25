@@ -93,3 +93,19 @@ def multiplesgetter(mnum,xnum):
         numlist.append(num)
         anum=anum+1
     print(numlist)
+
+
+def pyramidmaker(pnum):
+    import math
+    snum = pnum/2
+    snum = math.floor(snum)
+    hnum = 1
+    ssnum=snum+1
+    for x in range(ssnum):
+        for z in range(snum):
+           print("",end=" ")
+        for y in range(hnum):
+                print("#",end="")
+        snum=snum-1
+        hnum=hnum+2     
+        print("")        
