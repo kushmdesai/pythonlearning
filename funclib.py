@@ -108,4 +108,14 @@ def pyramidmaker(pnum):
                 print("#",end="")
         snum=snum-1
         hnum=hnum+2     
-        print("")        
+        print("")       
+
+
+
+def indexgiver(numa,list1a):
+    for x in range(len(list1a)):
+            
+            if numa==list1a[x]:
+                 print(x)
+                 break
+           
