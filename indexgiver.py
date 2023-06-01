@@ -3,9 +3,15 @@ from funclib import numleatogresorter
 
 def indexgiver(numa,list1a):
     for x in range(9):
-        if numa :
-            numa
- 
+            y=0
+            if numa==list1a[y]:
+                 print(y)
+                 break
+            else:
+                y+=1     
+
+
+
 
 list1 = numbergiver()
 print(numleatogresorter(list1))
@@ -16,4 +22,4 @@ if numa > 100:
 elif numa < 0:
     print("sorry but the number must be more than 0, try again later.")
 else:
-    indexgiver()    
+    indexgiver(numa,list1a)    
