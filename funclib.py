@@ -1,3 +1,5 @@
+import random
+
 def generateRandomNumList(length):
      print("Inside generateRandomeNum list")
 
@@ -115,7 +117,24 @@ def pyramidmaker(pnum):
 def indexgiver(numa,list1a):
     for x in range(len(list1a)):
             
-            if numa==list1a[x]:
-                 print(x)
-                 break
-           
+        if numa==list1a[x]:
+                print(x)
+                break
+
+def RPorS(x):
+    if x == 1:
+        return "rock"
+    elif x == 2:
+        return "paper"
+    else:
+        return "scissors"
+
+def determine_winner(player, bot):
+    if player == bot:
+        return 'It is tie'
+    elif (player == 'rock' and bot == 'scissors') or \
+         (player == 'paper' and bot == 'rock') or \
+         (player == 'scissors' and bot == 'paper'):
+        return 'Player Wins!'
+    else:
+        return 'Bot Wins!'
