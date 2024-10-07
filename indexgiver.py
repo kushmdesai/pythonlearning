@@ -1,9 +1,9 @@
 from funclib import numbergiver
-from funclib import numleatogresorter
+from funclib import numleasttogreatestsorter
 from funclib import indexgiver
     
 list1 = numbergiver()
-print(numleatogresorter(list1))
+print(numleasttogreatestsorter(list1))
 numa = int(input("which numbers index would you like to know:"))
 if numa > 100:
     print("sorry but the number must be less than 100, try again later.")

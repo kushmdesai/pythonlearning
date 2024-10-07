@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pythonlearning"
+version = "0.1.0"
+description = "kush learning python"
+authors = ["kushmdesai <kushmdesai@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

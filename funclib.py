@@ -71,7 +71,7 @@ def numbergiver():
     return num_list
 
 
-def numleatogresorter(num_list):
+def numleasttogreatestsorter(num_list):
     i = 0
     while i in range(9):
         o = 0
@@ -98,16 +98,14 @@ def multiplesgetter(mnum,xnum):
 
 
 def pyramidmaker(pnum):
-    import math
-    snum = pnum/2
-    snum = math.floor(snum)
+    snum = pnum//2
     hnum = 1
     ssnum=snum+1
     for x in range(ssnum):
         for z in range(snum):
            print("",end=" ")
         for y in range(hnum):
-                print("#",end="")
+                print("_",end="")
         snum=snum-1
         hnum=hnum+2     
         print("")       
